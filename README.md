@@ -1,6 +1,8 @@
 # image-builder-ami-lambda
 Lambda function to update launch template's latest AMI id when Image Builder Pipeline creates new AMI
 
+More details: https://returncodezero.cloud/automate-ami-image-creation-and-deployment/
+
 As time goes, our AMI images get older, not up to date with latest software and packages we want them to have. Are you manually updating and creating new images? In this article I will explain how we can automate AMI image creation that will be used by our EC2 instances later on (which we also automate).
 
 ## Automated pipeline
